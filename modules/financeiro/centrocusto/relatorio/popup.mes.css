@@ -1,0 +1,21 @@
+.centro-custo-mes-list{
+	margin: 10px 0px 10px 0px;
+	padding: 0px;
+	list-style-type: none;	
+}
+
+.centro-custo-mes-item{
+	padding: 3px 20px;
+}
+
+.centro-custo-mes-item:hover{
+	background-color: #3875D7;
+	color: #fff;
+	cursor: pointer; 
+}
+
+.centro-custo-mes-item span{
+	display: inline-block;
+	margin-left: 10px;
+	min-width: 20px;
+}

@@ -1,0 +1,37 @@
+﻿<div class="centrocusto-page">
+
+    <div class="centrocusto-page-pagina">
+
+        <div class="centrocusto-page-header">
+
+            <img class="centrocusto-page-img" src="@{logo}" />
+            <div class="centrocusto-page-dados">
+                <h3>@{unidade.Nome}</h3>
+                <div>@{unidade.Endereco}</div>
+                <div>@{unidade.Telefone}</div>
+                <div>@{unidade.Contato}</div>
+            </div>
+
+        </div>
+
+        <div class="centrocusto-page-div">
+            <b>Centro Custo</b>
+            <div class="centrocusto-page-data">@{dataHora}</div>
+        </div>
+
+        <div class="centrocusto-page-body">
+
+            <ul class="centrocusto-page-list" at="list"></ul>
+
+        </div>
+
+    </div>
+
+    <div>
+        <div at="popupMes"></div>
+        <div at="popupAno"></div>
+    </div>
+    
+    <div at="statusBar"></div>
+
+</div>

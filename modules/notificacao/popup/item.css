@@ -1,0 +1,36 @@
+﻿.notificacao-popup-item {
+    padding: 10px;
+    color: #666;
+    width: 318px;
+    border-bottom: 1px solid #eee;    
+    /*border: 1px solid #3778c7;*/
+}
+
+.notificacao-popup-item-nao-lida {
+    /*border-left: 2px solid #d14836;*/
+    background: url(opstripe.png) repeat-y left top;
+    border-left: 1px solid #3778c7;
+}
+
+.notificacao-popup-item:hover {
+    background-color: #f9f9f9;
+}
+
+.notificacao-popup-usuario {
+    font-weight: bold;
+}
+
+.notificacao-popup-message {
+    
+}
+
+.notificacao-popup-data {
+    float: right;
+    color: #999;
+}
+
+.notificacao-popup-all {
+    padding: 7px;
+    text-align: center;
+    color: #007acc;
+}

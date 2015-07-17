@@ -1,0 +1,82 @@
+﻿.centrocusto-page {
+    background-color: #f9f9f9;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.centrocusto-page-pagina {
+    background-color: rgb(255, 255, 255);
+    border: 0;
+    margin: 3.75pt;
+    margin-bottom: 7.5pt;
+    overflow: hidden;
+    position: relative;
+    white-space: normal;
+    -webkit-tap-highlight-color: initial;
+    width: 794px;
+    height: 1123px;
+    box-shadow: 0 0 0 0.75pt #d1d1d1,0 0 3pt 0.75pt #ccc;
+    margin: auto;
+}
+
+.centrocusto-page-header {
+    padding: 42px;
+}
+
+.centrocusto-page-header h3 {
+    margin-top: 0px;
+}
+
+.centrocusto-page-img {
+    float: left;
+    width: 96px;
+}
+
+.centrocusto-page-dados {
+    margin-left: 120px;
+}
+
+.centrocusto-page-div {
+    padding: 3px 5px;
+    background-color: #eee;
+    margin: 0px 44px;
+}
+
+.centrocusto-page-data {
+    float: right;
+}
+
+.centrocusto-page-list {
+    max-width: 49em;
+    padding: 0;
+    margin: 17px auto;
+    list-style: none;
+    overflow: hidden;
+}
+
+.centrocusto-page-item {
+    clear: both;
+    margin: 5px 0px;
+}
+
+.centrocusto-page-item:before {
+    float: left;
+    width: 0;
+    white-space: nowrap;
+    content: ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . ";
+}
+
+.centrocusto-page-item > span:first-child {
+  padding-right: 0.33em;
+  background: #fff;
+}
+
+.centrocusto-page-item > span + span {
+    float: right;
+    padding-left: 0.33em;
+    background: #fff;
+}
+
+.centrocusto-page-item .centro-custo-seta {
+    margin: 0px 4px;
+}

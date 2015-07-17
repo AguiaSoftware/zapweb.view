@@ -1,0 +1,25 @@
+.financeiro-despesa-search-popup-list{
+    padding: 0px;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.financeiro-despesa-search-popup-item{
+    padding: 5px 24px;
+}
+
+.financeiro-despesa-search-popup-item:hover{
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.financeiro-despesa-search-icon{
+    margin-right: 5px;
+    visibility: hidden;
+    color: #60b044;
+}
+
+.financeiro-despesa-search-icon-show{
+    margin-right: 5px;
+    visibility: visible;
+}
